@@ -1,0 +1,878 @@
+.testeIcon {
+  background-image: url("paper.gif")
+}
+.full {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(28, 28, 28);
+}
+
+iframe{
+  width: 100% !important;
+  height: 315px !important;
+}
+.navbar {
+  background: white !important;
+    padding: 4px;
+    z-index: 9999;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.36);
+}
+.navbar-brand{
+  margin-top: 6px;
+  padding: 0px; 
+}
+
+.navbar-brand > img {
+  height: 80% !important;
+}
+
+#nav-bar ul li a {
+   font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+    color: #000;
+}
+
+#nav-bar ul li  a:hover, #nav-bar ul li  a:focus{
+    color: #000;
+}
+.navbar-inverse {
+    background-color: #fff;
+    border-color: #757575;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #5ca696;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    border-radius: 5px;
+    background-color: #FFF;
+}
+
+#nav-bar ul li:hover::after {
+    width: 100%;
+    
+}
+
+#nav-bar ul li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    background: #e700ed;
+    width: 0;
+    transition: width 0.7s;
+}
+
+@font-face {
+     font-family: Aller;
+     src: url('aller.regular.ttf');
+}
+
+#home {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/fundoHome.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(28, 28, 28);
+    color: white;
+}
+
+.homeName {
+  font-family: 'Aller';
+  font-size: 6em;
+  letter-spacing: -5px;
+  line-height: 0.95em;
+  font-weight: 100;
+  padding-top: 160px;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 2px 2px 10px black;
+  margin-bottom: 90px;
+  
+}
+
+.slogan {
+  width: 60%;
+  margin: auto;
+  display: block;
+
+}
+
+#down {
+  position: absolute;
+  opacity: 0.40;
+  left: 50%;
+  bottom: 2%;
+  cursor: pointer;
+}
+
+#down i {
+  color: white;
+}
+
+.max {
+    max-width: 1300px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.section-title {
+    font-family: 'lato', sans-serif;
+    font-size: 3.5em;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section-banner {
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+
+.line {
+    height: 3px;
+    width: 100px;
+    position: relative;
+    top: -12px;
+    display: inline-block;
+    background-color: #999;
+}
+
+#forumPermanente {
+    width: 100vw;
+    background-image: url("../img/fundo3.png");
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.line.forumPermanenteTitulo {
+  background-color: #757575;
+}
+
+.section-title.forumPermanenteTitulo {
+  color: #757575;
+}
+
+.forumPermanenteDesc p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.7em;
+    letter-spacing: 0.03em;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    color: #000;
+}
+
+
+
+#forumPermanente img {
+    width: 100%;
+    border-radius: 5px;
+    margin:auto;
+    display: block;
+}
+
+.campoButton{
+    margin:20px;
+}
+.forumPermanenteButton {
+    margin: auto;
+    display: block;
+    width: 100%;
+    font-family: 'lato', sans-serif;
+    font-style: italic;
+    text-align: center;
+    background-color: #fce88f;
+    border: none;
+    color: #757575;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.forumPermanenteButton3 {
+    margin: auto;
+    display: block;
+    width: 100%;
+    font-family: 'lato', sans-serif;
+    font-style: italic;
+    text-align: center;
+    background-color: #fce88f;
+    border: none;
+    color: #757575;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.forumPermanenteButton:hover, .forumPermanenteButton:focus{
+    background-color: #757575;
+    color: black !important;
+}
+.forumPermanenteButton3:hover, .forumPermanenteButton3:focus{
+    background-color: #757575;
+    color: black !important;
+}
+.campoButton2{
+    margin-top: 35px; 
+}
+.forumPermanenteButton2 {
+    width: 40%;
+    font-family: 'lato', sans-serif;
+    font-style: italic;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color:#5C9685;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    margin: auto;
+    display: block;
+    transition: all 0.5s;
+    box-shadow: 4px 4px 3px #9fcfc4;
+}
+
+
+.forumPermanenteButton2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.forumPermanenteButton2 span:after {
+  color: black !important;
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.forumPermanenteButton2:hover span {
+  color: black !important;
+  padding-right: 25px;
+}
+
+.forumPermanenteButton2:hover span:after {
+  color: black !important;
+  opacity: 1;
+  right: 0;
+}
+
+#debatePolitico {
+    background-image: url("../img/fundo1.png");
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.debatePoliticoButton {
+    width: 40%;
+    font-family: 'lato', sans-serif;
+    font-style: italic;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color:#fff;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #000;
+    margin: auto;
+    display: block;
+    transition: all 0.5s;
+    box-shadow: 4px 4px 3px #757575;
+}
+.debatePoliticoButton span {
+  color: black !important;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.debatePoliticoButton span:after {
+  color: black !important;
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.debatePoliticoButton:hover span {
+  color: black !important;
+  padding-right: 25px;
+}
+
+.debatePoliticoButton:hover span:after {
+  color: black !important;
+  opacity: 1;
+  right: 0;
+}
+
+.line.debatePoliticoTitulo {
+  background-color: #fff;
+}
+
+.section-title.debatePoliticoTitulo {
+  color: #fff;
+  text-shadow: 2px 2px 10px black;
+}
+
+
+#noticias {
+    width: 100vw;
+    background-image:  url("../img/fundo3.png");
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.line.noticiasTitulo {
+    background-color: #757575;
+}
+
+.section-title.noticiasTitulo {
+    color: #757575;
+}
+
+.noticiaCampo {
+    width: 100%;
+    height: 180px;
+    background-image: url("../img/fundoNoticias2.jpg");
+    background-size: 100%;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    position: relative;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.36);
+}
+
+
+.noticiasButton:hover, .noticiasButton:focus{
+    background-color: #757575;
+    color: #fff;
+}
+
+.noticiaTitulo p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.iconNoticias i{
+    margin: 10px;
+    float: right;
+    color: #FCE88F;
+}
+
+/* HOME PAGE INDICADORES */
+
+#indicadores {
+
+    background-image: url("../img/fundo2.png");
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.line.indicadoresTitulo {
+    background-color: #757575;
+}
+
+.section-title.indicadoresTitulo {
+    color: #757575;
+}
+
+.indicadoresCampo {
+    width: 100%;
+    height: 135px;
+   background-image: url("../img/fundoNoticias2.jpg");
+    background-size: 100%;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    position: relative;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.36);
+}
+
+.indicadoresTitulo p {
+  margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    
+    text-transform: uppercase;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+
+.campoButton{
+    margin:10px;
+  }
+    
+.line.pagesTitulo{
+    background-color: #757575;
+}
+
+.section-title.pagesTitulo{
+    color: #757575;
+}
+
+/* PAGINAS */
+
+.page{
+    background-image:  url("../img/fundo3.png");
+}
+
+#tituloPage{
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+/* PAGINA FORUM PERMANENTE */
+
+.forumPermanenteTitulo2{
+  color: #e700ed;
+  font-family: 'Aller';
+  text-align: center;
+    line-height: 1.7em;
+    letter-spacing: 0.03em;
+}
+
+.forumPermanenteTexto{
+  font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.7em;
+    letter-spacing: 0.03em;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    color: #000;
+    padding: 30px;
+}
+
+
+/* PAGINA DEBATE POLITICO */
+
+
+/* PAGINA NOTICIAS */
+
+#campoNoticias{
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.textoNoticia{
+ font-size: 1.1em;
+ text-align: justify;
+ margin-bottom: 10px;
+}
+
+.imgNoticia{
+  margin: auto;
+  display: block;
+  width: 300px;
+}
+
+.continuarLendoButton {
+    width: 40%;
+    font-family: 'lato', sans-serif;
+    font-style: italic;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color:#5C9685;
+    border: none;
+    padding: 6px;
+    font-size: 1.1em;
+    color: #fff;
+    transition: all 0.5s;
+    box-shadow: 4px 4px 3px #9fcfc4;
+}
+
+
+.continuarLendoButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.continuarLendoButton span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.continuarLendoButton:hover span {
+  padding-right: 25px;
+}
+
+.continuarLendoButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* PAGINA PROPOSTA COLETIVA */
+
+.propostacoletivaimg img{
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+.info p {
+  text-align:center;
+  color: #999;
+  text-transform:none;
+  font-weight:600;
+  font-size:15px;
+  margin-top:2px
+}
+
+.info i {
+  color:#F6AA93;
+}
+.formulario form h1 {
+  font-size: 18px;
+  background: #F6AA93 none repeat scroll 0% 0%;
+  color: rgb(255, 255, 255);
+  padding: 22px 25px;
+  border-radius: 5px 5px 0px 0px;
+  margin: auto;
+  text-shadow: none; 
+  text-align:left
+}
+
+.formulario form {
+  border-radius: 5px;
+  max-width:700px;
+  width:100%;
+  margin: 5% auto;
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+
+.formulario p span {
+  color: #F00;
+}
+
+.formulario p {
+  margin: 0px;
+  font-weight: 500;
+  line-height: 2;
+  color:#333;
+}
+
+.formulario h1 {
+  text-align:center; 
+  color: #666;
+  text-shadow: 1px 1px 0px #FFF;
+  margin:50px 0px 0px 0px
+}
+
+.formulario select {
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #eee;
+  margin-bottom: 15px;
+  width: 75%;
+  height: 40px;
+  float: left;
+  padding: 0px 15px;
+}
+.formulario input {
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #eee;
+  margin-bottom: 15px;
+  width: 75%;
+  height: 40px;
+  float: left;
+  padding: 0px 15px;
+}
+
+.formulario a {
+  text-decoration:inherit
+}
+
+.formulario textarea {
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #EEE;
+  margin: 0;
+  width: 75%;
+  height: 130px; 
+  float: left;
+  padding: 0px 15px;
+}
+
+.form-group {
+  overflow: hidden;
+  clear: both;
+}
+
+.icon-case {
+  width: 35px;
+  float: left;
+  border-radius: 5px 0px 0px 5px;
+  background:#eeeeee;
+  height:42px;
+  position: relative;
+  text-align: center;
+  line-height:40px;
+}
+
+i {
+  color:#555;
+}
+
+.contentform {
+  padding: 40px 30px;
+}
+
+.bouton-contact{
+  width: 40%;
+    font-family: 'lato', sans-serif;
+    font-style: italic;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color:#5C9685;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    margin: auto;
+    display: block;
+    transition: all 0.5s;
+    box-shadow: 4px 4px 3px #9fcfc4;
+}
+
+
+
+/* PAGINA PARCEIROS */
+
+
+/* PAGINA BOAS PRATICAS */
+
+
+.boasPraticasTitulo{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+    font-size: 1.8em;
+    
+}
+
+.boasPraticasCampo {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+    background-size: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.36);
+}
+
+/* PAGINA CONTATO */
+
+.conteudo-formulario2 h1 {
+   font-size: 18px;
+  font-family: 'lato', sans-serif;
+  font-weight: bold;
+  margin: 10px 0 20px;
+}
+
+.conteudo-formulario2 p {
+  font-size: 15px;
+  font-family: 'lato', sans-serif;
+  margin: 0px;
+  width: 100%;
+}
+
+.conteudo-formulario2 input {
+  margin: 10px 0 10px 0;
+  width: 100%;
+  height: 30px;
+}
+.conteudo-formulario2 #enviar, #reset {
+  transition: all 0.3s ease 0s;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 3px #999;
+}
+
+.conteudo-formulario2 textarea {
+   width: 100%;
+   height: 300px;
+   resize: none;
+   margin: 12px 0 12px;
+}
+
+.conteudo-formulario2 button {
+    display: block;
+    margin: auto;
+    width: 50%;
+    font-family: 'lato', sans-serif;
+    font-style: italic;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color:#5C9685;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    transition: all 0.5s;
+    box-shadow: 4px 4px 3px #9fcfc4;
+    
+}
+.conteudo-formulario2 button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.conteudo-formulario2 button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.conteudo-formulario2 button:hover span {
+  padding-right: 25px;
+}
+
+.conteudo-formulario2 button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+/* FOOTER */
+
+.rodape1{
+    position: relative;
+    margin-top: 20px;
+}
+
+.rodape{
+  font-family: 'Oswald', sans-serif;
+    background: #fff;
+    color: #000;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    min-height: 100%;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.imagemRodape{
+  margin-top: 6px;
+  padding: 0px; 
+    width: 40%;
+}
+
+.rede > a{
+  text-align: center;
+    color: #000;
+    text-decoration:none;
+}
+
+.adminButton{
+  margin: 5px;
+    width: 30%;
+    font-family: 'lato', sans-serif;
+    font-style: italic;
+    text-align: center;
+    background-color: #fce88f;
+    border: none;
+    color: #757575;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  #home {
+    background-attachment: scroll;
+  }
+
+ 
+
+  .homeName {
+    text-align: center;
+    font-size: 4em;
+  }
+  .section-title {
+    font-size: 1.8em;
+  }
+
+  .line {
+    height: 2px;
+    width: 30px;
+    position: relative;
+    top: -10px;
+    display: inline-block;
+    background-color: #666;
+  }
+.campoButton{
+    margin:10px;
+    
+
+}
+
+.slogan {
+  width: 100%;
+}
+
+  #forumPermanente img {
+    
+   margin: 20px;
+
+    
+}
+  .forumPermanenteButton{
+    width: 60%;
+    margin: auto;
+    display: block;
+  }
+  .forumPermanenteButton2{
+    width: 80%;
+  }
+
+}
+
+
+
+
